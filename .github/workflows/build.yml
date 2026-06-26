@@ -1,0 +1,71 @@
+name: SwiftMobile Build
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      mc_version:
+        description: "MC version folder to export (e.g. 1.21.4)"
+        required: false
+        default: "1.21.4"
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    strategy:
+      matrix:
+        mc_version:
+          - "1.21.4"
+          - "1.21.1"
+          - "1.20.1"
+
+    steps:
+      # ── Checkout ──────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ── Download packwiz ──────────────────────────────────────────────────
+      - name: Download packwiz
+        run: |
+          mkdir -p tools
+          curl -L https://github.com/packwiz/packwiz/releases/latest/download/packwiz_linux_amd64.zip -o tools/packwiz.zip
+          unzip tools/packwiz.zip -d tools/
+          chmod +x tools/packwiz
+          echo "$GITHUB_WORKSPACE/tools" >> $GITHUB_PATH
+
+      # ── Refresh & update mods (fixes hashes for newly-added mods) ─────────
+      - name: Refresh mod hashes and update from Modrinth
+        working-directory: Packwiz/${{ matrix.mc_version }}
+        run: |
+          packwiz update --all || true
+          packwiz refresh
+
+      # ── Build .mrpack ─────────────────────────────────────────────────────
+      - name: Export .mrpack
+        working-directory: Packwiz/${{ matrix.mc_version }}
+        run: |
+          packwiz modrinth export -o ../../SwiftMobile-${{ matrix.mc_version }}.mrpack
+
+      # ── Upload artifact ───────────────────────────────────────────────────
+      - name: Upload mrpack artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SwiftMobile-${{ matrix.mc_version }}
+          path: SwiftMobile-${{ matrix.mc_version }}.mrpack
+          retention-days: 30
+
+      # ── Commit refreshed index back (so hashes stay correct in repo) ──────
+      - name: Commit refreshed index
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Packwiz/${{ matrix.mc_version }}/
+          git diff --cached --quiet || git commit -m "chore: refresh packwiz index for ${{ matrix.mc_version }} [skip ci]"
+          git push || true
