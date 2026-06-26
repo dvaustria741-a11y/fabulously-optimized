@@ -18,7 +18,7 @@ hash = "4d9f4d8b7ab8989038f6d3ee17690decb16f686c895c4f73694e761849243a1e"
 
 [[files]]
 file = "config/modpack_defaults/config/BBEConfig.json"
-hash = "e5f2ee57e9f9c0bd81af26c1918ceee988b3d726014c411f439406dc0fe60ef1"
+hash = "85f28f2493fd9229a707aba0b561bb7b9a3c5d95ebc3216e98c1077fad0926fe"
 
 [[files]]
 file = "config/modpack_defaults/config/NoChatReports/NCR-Client.json"
@@ -162,7 +162,7 @@ hash = "b7b9cdc1e99bdfd86052e373dc3e0ae87c73760816454b801b09d0cfd7b79604"
 
 [[files]]
 file = "config/modpack_defaults/config/moreculling.toml"
-hash = "60eb0902eac918d39fb5eb7df66314f5748aef0259b4ad5bdeacd27dfff120ca"
+hash = "ee7d40bb334a12e40ac32bb2c5b36919e4a7486a0ef22b5720d4ef7a1509a288"
 
 [[files]]
 file = "config/modpack_defaults/config/puzzle.json"
@@ -178,7 +178,7 @@ hash = "6c02a3834146f91beeb4baa7a25abdfbbe7a9879ed53399465c17f7f61924801"
 
 [[files]]
 file = "config/modpack_defaults/config/sodium-options.json"
-hash = "37aaf52aa7545527c7ade71ac77ad2fcf6019995bf58b6ea1fe0f52949919d18"
+hash = "ec49efadad7ab8e28a149cd3cf7aea7db1d71348a6fd698ad30f032575ec4391"
 
 [[files]]
 file = "config/modpack_defaults/config/sodium-shadowy-path-blocks-options.json"
@@ -190,7 +190,7 @@ hash = "902b29e5f2044fa0011ac76281c700b52d83f1b5db6b605b8f702c8a99a55a2b"
 
 [[files]]
 file = "config/modpack_defaults/options.txt"
-hash = "aa1c9ddc9e3e7ce376b57fa7f1037c666ebdfd8eb125ecc0dd3f39d7d81706b0"
+hash = "4e4fe57ca41dadeaa926d6981068a5f41fc362aa3ff6b6c6c928a2cf73360750"
 
 [[files]]
 file = "mods/animatica.pw.toml"
