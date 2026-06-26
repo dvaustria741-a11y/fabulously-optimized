@@ -4,20 +4,16 @@ on:
   push:
     branches: [ main ]
   workflow_dispatch:
-    inputs:
-      mc_version:
-        description: "MC version folder to export (e.g. 1.21.4)"
-        required: false
-        default: "1.21.4"
 
 jobs:
   build:
     runs-on: ubuntu-24.04
-    timeout-minutes: 30
+    timeout-minutes: 45
     permissions:
       contents: write
 
     strategy:
+      fail-fast: false
       matrix:
         mc_version:
           - "1.21.4"
@@ -30,42 +26,46 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # ── Download packwiz ──────────────────────────────────────────────────
-      - name: Download packwiz
-        run: |
-          mkdir -p tools
-          curl -L https://github.com/packwiz/packwiz/releases/latest/download/packwiz_linux_amd64.zip -o tools/packwiz.zip
-          unzip tools/packwiz.zip -d tools/
-          chmod +x tools/packwiz
-          echo "$GITHUB_WORKSPACE/tools" >> $GITHUB_PATH
+      # ── Go toolchain (needed to install packwiz) ───────────────────────
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: "1.22"
 
-      # ── Refresh & update mods (fixes hashes for newly-added mods) ─────────
-      - name: Refresh mod hashes and update from Modrinth
+      # ── Install packwiz via go install ────────────────────────────────
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      # ── Refresh + update mods (resolves hashes for newly-added mods) ──
+      - name: Update and refresh packwiz index
         working-directory: Packwiz/${{ matrix.mc_version }}
         run: |
           packwiz update --all || true
           packwiz refresh
+        continue-on-error: true
 
-      # ── Build .mrpack ─────────────────────────────────────────────────────
-      - name: Export .mrpack
+      # ── Build .mrpack ─────────────────────────────────────────────────
+      - name: Export SwiftMobile-${{ matrix.mc_version }}.mrpack
         working-directory: Packwiz/${{ matrix.mc_version }}
         run: |
           packwiz modrinth export -o ../../SwiftMobile-${{ matrix.mc_version }}.mrpack
 
-      # ── Upload artifact ───────────────────────────────────────────────────
+      # ── Upload build artifact ─────────────────────────────────────────
       - name: Upload mrpack artifact
         uses: actions/upload-artifact@v4
         with:
           name: SwiftMobile-${{ matrix.mc_version }}
           path: SwiftMobile-${{ matrix.mc_version }}.mrpack
-          retention-days: 30
+          retention-days: 90
 
-      # ── Commit refreshed index back (so hashes stay correct in repo) ──────
+      # ── Commit refreshed index back to repo ───────────────────────────
       - name: Commit refreshed index
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add Packwiz/${{ matrix.mc_version }}/
-          git diff --cached --quiet || git commit -m "chore: refresh packwiz index for ${{ matrix.mc_version }} [skip ci]"
+          git diff --cached --quiet || git commit -m "chore: refresh packwiz index ${{ matrix.mc_version }} [skip ci]"
+          git pull --rebase origin main || true
           git push || true
