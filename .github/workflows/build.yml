@@ -43,7 +43,7 @@ jobs:
       - name: Update and refresh packwiz index
         working-directory: Packwiz/${{ matrix.mc_version }}
         run: |
-          packwiz update --all || true
+          packwiz update --all
           packwiz refresh
         continue-on-error: true
 
