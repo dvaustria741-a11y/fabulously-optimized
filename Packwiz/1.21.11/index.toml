@@ -333,15 +333,7 @@ file = "mods/isxander-main-menu-credits.pw.toml"
 hash = "e379dcd9dfc17994be22c8ebd94ddb3e61c5e8498ba9a4f3e79b4e07ae253b43"
 metafile = true
 
-[[files]]
-file = "mods/ixeris.pw.toml"
-hash = "180c2aedf15824ab3478bf0f292844eeb9ffa6ce784355fe39b91fdcd8a8f814"
-metafile = true
 
-[[files]]
-file = "mods/krypton.pw.toml"
-hash = "8f6e0157b42ba668c0ba9aa7eff94b3b91a8f58bcd357e574d70a7b160d4337c"
-metafile = true
 
 [[files]]
 file = "mods/lambdynlights.pw.toml"
