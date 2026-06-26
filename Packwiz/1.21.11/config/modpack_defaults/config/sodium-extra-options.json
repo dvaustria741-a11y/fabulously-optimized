@@ -1,10 +1,7 @@
 {
-  "extra_settings": {
-    "reduce_resolution_on_mac": false,
-    "fog": {
-      "enabled": false,
-      "overlay_fog_enabled": false,
-      "horizon_fog_enabled": false
-    }
-  }
+  "fog": false,
+  "fog_start": 0.1,
+  "nether_fog": false,
+  "blindness_fog": false,
+  "powderedsnow_fog": false
 }
