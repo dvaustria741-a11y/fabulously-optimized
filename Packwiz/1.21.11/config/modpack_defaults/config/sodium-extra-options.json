@@ -1,1 +1,10 @@
-{"extra_settings":{"reduce_resolution_on_mac":true}}
+{
+  "extra_settings": {
+    "reduce_resolution_on_mac": false,
+    "fog": {
+      "enabled": false,
+      "overlay_fog_enabled": false,
+      "horizon_fog_enabled": false
+    }
+  }
+}
