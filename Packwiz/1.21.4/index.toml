@@ -250,6 +250,11 @@ hash = "86fea762e96966adce3a83f1b5a668fa8456004fe5a2ad53f0d5e18edb6f6a1a"
 metafile = true
 
 [[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "119f2d811306e885c3674b2ccabbb8348067a12613e30a7e3dbc436efbb1d935"
+metafile = true
+
+[[files]]
 file = "mods/bettergrass.pw.toml"
 hash = "2b9a1e3d26eb7f95f8adf6740aa46f2f2815a59d2b61e6eacf7cfe7ab4016377"
 metafile = true
@@ -260,6 +265,11 @@ hash = "5936c9b1c49cd7df6ce02c0a4ac882a1ae1c802e3ca4cd8080c2683b1a391088"
 metafile = true
 
 [[files]]
+file = "mods/c2me-fabric.pw.toml"
+hash = "2b24e7c7438cf52731335087b76b7e4a3307d1ddf1e5706cb36c0feb444f1cd0"
+metafile = true
+
+[[files]]
 file = "mods/capes.pw.toml"
 hash = "ae4a5a457014df0d07c1a849707266236731c50786a82c95d0730a1104ef92b0"
 metafile = true
@@ -267,6 +277,11 @@ metafile = true
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "62ae4282efbbb94b3900e1a1182eea76c1e7985610149af337ff793ebe5f853e"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "75a27e188ab1480b77e7fb0a16fb5cb8364c190486be2ed083b76a4174789f82"
 metafile = true
 
 [[files]]
@@ -322,6 +337,11 @@ metafile = true
 [[files]]
 file = "mods/entityculling.pw.toml"
 hash = "e1ade5d659435056f2367eb2bebca23cea2bd02f23a0df197ea8eb0a61c9502f"
+metafile = true
+
+[[files]]
+file = "mods/exordium.pw.toml"
+hash = "4e03b7150742dd761af16fe20e05b9c327c9b9af1f132ebe30ececd5c6f72a9f"
 metafile = true
 
 [[files]]
@@ -417,6 +437,11 @@ metafile = true
 [[files]]
 file = "mods/nochatreports.pw.toml"
 hash = "95ff1073b74b23e62cae94569ffb63e6e2f244d99a6d1a38c4a26bdd183a64eb"
+metafile = true
+
+[[files]]
+file = "mods/noisium.pw.toml"
+hash = "41bd4181a4184292e1d881557c35062897ee4e13d54933575f392e9436ad2543"
 metafile = true
 
 [[files]]
