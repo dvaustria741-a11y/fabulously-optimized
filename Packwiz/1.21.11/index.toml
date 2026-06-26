@@ -199,7 +199,7 @@ metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
-hash = "0559a3d53627a0b23a1281aeb12e6a748b3ce1937bb23fe49fbcce33b95c27e3"
+hash = "36c3764fe3e56ccc311c6908aba540142f7e67af24755839a7b1ea7a91188799"
 metafile = true
 
 [[files]]
@@ -219,7 +219,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "8ee4ad9f9210b718ee3b56c08b081864333a02f1a9db896bb305d7e6128bd501"
+hash = "ff260b35492778bdce59ffa064a59c6a9953ffd409eb40782af14b78a29a2cb8"
 metafile = true
 
 [[files]]
@@ -289,7 +289,7 @@ metafile = true
 
 [[files]]
 file = "mods/exordium.pw.toml"
-hash = "19e3eec30f388190d0bb643183ce342a5cf9596cd79b646f77ad41ae995d954d"
+hash = "2256b609d17068e479eafb7c0fc2cfb885dc82c722159b394a2c9117255714b3"
 metafile = true
 
 [[files]]
@@ -384,7 +384,7 @@ metafile = true
 
 [[files]]
 file = "mods/noisium.pw.toml"
-hash = "4c4b8c0d5781bffe6e11c2577b290f87eccb7112238314519c15f95235479aa6"
+hash = "ccaaca24a788630e62da4b377928f3edc9f77894058c53c2188bc93322250c66"
 metafile = true
 
 [[files]]
