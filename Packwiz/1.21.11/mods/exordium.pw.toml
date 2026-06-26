@@ -1,13 +1,13 @@
 name = "Exordium"
-filename = "exordium-fabric-2.0.1-mc1.21.11.jar"
+filename = "exordium-fabric-2.1.1-mc1.21.11.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/DynYZEae/versions/2.0.1/exordium-fabric-2.0.1-mc1.21.11.jar"
+url = "https://cdn.modrinth.com/data/DynYZEae/versions/2.1.1-1.21.11/exordium-fabric-2.1.1-mc1.21.11.jar"
 hash-format = "sha512"
-hash = "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+hash = "0e2ba6423aebd245aa5da53449a427b30d89ecfc17a3ec9908ac8df41a700be1d74be91aa5657c1137da6149a00df551161606f867f6c5256f5a31ba2bdd8000"
 
 [update]
 [update.modrinth]
 mod-id = "DynYZEae"
-version = "2.0.1"
+version = "2.1.1-1.21.11"
