@@ -170,7 +170,7 @@ hash = "3630be880dc7f037238b7e6347201d4f716ffc7e16db0a1498ef2f775cf8f5be"
 
 [[files]]
 file = "config/modpack_defaults/config/sodium-extra-options.json"
-hash = "7253cd0b0136bfb4b9466538eedb7bf816a42f5716e1304a83e353d79282bde1"
+hash = "3460fa7e4fb4c92a18c06e4a1f9786568678b75d948383be759413a8eb4b3f73"
 
 [[files]]
 file = "config/modpack_defaults/config/sodium-options.json"
@@ -332,8 +332,6 @@ metafile = true
 file = "mods/isxander-main-menu-credits.pw.toml"
 hash = "e379dcd9dfc17994be22c8ebd94ddb3e61c5e8498ba9a4f3e79b4e07ae253b43"
 metafile = true
-
-
 
 [[files]]
 file = "mods/lambdynlights.pw.toml"
