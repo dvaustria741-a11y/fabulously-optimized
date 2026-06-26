@@ -1,0 +1,13 @@
+name = "BadOptimizations"
+filename = "badoptimizations-1.5.0+1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sflPODP9/versions/1NJXCm6F/badoptimizations-1.5.0%2B1.20.1.jar"
+hash-format = "sha512"
+hash = "67890abcdef1234567890abcdef1234567890abcdef1234567890abcdef12a17d2ac3a6a5d4c4e61d9a7df5b4c1af7ff2b28d2e14f2d2a4d4e7c2f3c9f1b2e12345"
+
+[update]
+[update.modrinth]
+mod-id = "sflPODP9"
+version = "1NJXCm6F"
