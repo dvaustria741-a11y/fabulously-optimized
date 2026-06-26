@@ -232,8 +232,6 @@ file = "mods/cloth-config.pw.toml"
 hash = "b4bba42a338f7d73be08bd82a31b7c22a74345fc26a13b797cfd3b7aea937566"
 metafile = true
 
-metafile = true
-
 [[files]]
 file = "mods/config_manager.pw.toml"
 hash = "48eea561787fda4c303f60716c0266ab613e8d816642617515be3d04777189b2"
