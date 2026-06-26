@@ -1,1 +1,1 @@
-{"bbe.config.storage.main":[{"option":"optimize.banner","value":false}],"bbe.config.storage.experimental":[]}
+{"bbe.config.storage.main": [{"option": "optimize.banner", "value": false}, {"option": "optimize.shulker_box", "value": true}, {"option": "optimize.chest", "value": true}, {"option": "optimize.trapped_chest", "value": true}, {"option": "optimize.ender_chest", "value": true}], "bbe.config.storage.experimental": []}
