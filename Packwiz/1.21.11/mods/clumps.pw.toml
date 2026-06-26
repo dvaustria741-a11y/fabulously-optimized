@@ -1,13 +1,13 @@
 name = "Clumps"
-filename = "Clumps-fabric-1.21.11-21.0.0.2.jar"
+filename = "Clumps-fabric-1.21.11-29.0.0.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/Wnxd13zp/versions/clumps-1.21.11/Clumps-fabric-1.21.11-21.0.0.2.jar"
+url = "https://cdn.modrinth.com/data/Wnxd13zp/versions/29.0.0.1/Clumps-fabric-1.21.11-29.0.0.1.jar"
 hash-format = "sha512"
 hash = "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
 
 [update]
 [update.modrinth]
 mod-id = "Wnxd13zp"
-version = "clumps-1.21.11"
+version = "29.0.0.1"
