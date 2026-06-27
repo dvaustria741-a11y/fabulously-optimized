@@ -1,0 +1,8 @@
+#Thu Feb 26 05:24:50 EST 2026
+shadowDistance=128.0
+LIGHT_SHAFT=false
+SHADOW_FILTER=false
+shadowMapResolution=1024
+TAA=false
+SHADOW_COLOR=false
+AO=false
