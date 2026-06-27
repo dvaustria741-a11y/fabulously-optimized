@@ -427,7 +427,7 @@ metafile = true
 
 [[files]]
 file = "pack.png"
-hash = "1043b8607614d22fe9e45d13ddc5e1b41c7de1cc101b6fc11aea80e00707cafb"
+hash = "03c2c443b40bb59b9ddf62395f5bf542a7c6b6cca124f2666af0345f20c65b8b"
 
 [[files]]
 file = "resourcepacks/Chat_Reporting_Helper.pw.toml"
@@ -458,3 +458,23 @@ hash = "158eac0e18d60d425fdc6acdb01857467fe7045f1d433aafcf837dead1416c37"
 file = "resourcepacks/Translations_for_Sodium.pw.toml"
 hash = "859744144764c03a21f31fcbeebc9278eecbe3ecff09edeb5cec8a3ca0fd62b6"
 metafile = true
+
+[[files]]
+file = "mods/smoothjoin-1_0_3.jar"
+hash = "c3cf59f921e2f931ecbe511cc5e5b5eac7d0e4daf9dc5de135cef735e18a8f4e"
+
+[[files]]
+file = "config/modpack_defaults/config/sodium-extra.properties"
+hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
+
+[[files]]
+file = "config/modpack_defaults/config/sodium-mixins.properties"
+hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
+
+[[files]]
+file = "config/modpack_defaults/config/smoothjoin.json"
+hash = "88c995ff16587443430dac75d6bd120c0552459587d0a3e7f21611efafe9f278"
+
+[[files]]
+file = "config/modpack_defaults/config/sodium-fingerprint.json"
+hash = "95aafb31863748b2100c8008670e810742977dc41ed0cfd7b8b2b7bc09e35d6d"
