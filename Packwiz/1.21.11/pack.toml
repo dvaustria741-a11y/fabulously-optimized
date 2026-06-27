@@ -11,3 +11,4 @@ hash = "9d3c7eb8a9fd76e063ee757d9379d69638f3b04540d5cd20e7827c3f117cd127"
 [versions]
 fabric = "0.19.3"
 minecraft = "1.21.11"
+icon = "pack.png"
