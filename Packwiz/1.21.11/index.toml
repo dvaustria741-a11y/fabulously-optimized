@@ -450,6 +450,3 @@ hash = "158eac0e18d60d425fdc6acdb01857467fe7045f1d433aafcf837dead1416c37"
 file = "resourcepacks/Translations_for_Sodium.pw.toml"
 hash = "859744144764c03a21f31fcbeebc9278eecbe3ecff09edeb5cec8a3ca0fd62b6"
 metafile = true
-[[files]]
-file = "pack.png"
-hash = "1043b8607614d22fe9e45d13ddc5e1b41c7de1cc101b6fc11aea80e00707cafb"
