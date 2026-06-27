@@ -1,0 +1,9 @@
+#Thu Feb 26 05:43:06 EST 2026
+SHADOW_VPS=false
+shadowMapResolution=1024
+VL=false
+ENTITY_SHADOWS=false
+WATER_PARALLAX=false
+INFO=0
+ENVIRONMENT_REFLECTIONS=false
+SHADOW_COLOR=false

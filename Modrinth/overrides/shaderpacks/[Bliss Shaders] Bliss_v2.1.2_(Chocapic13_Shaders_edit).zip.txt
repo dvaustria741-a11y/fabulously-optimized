@@ -1,0 +1,2 @@
+#Thu Feb 26 05:24:20 EST 2026
+TONEMAP=ToneMap_Hejl2015
