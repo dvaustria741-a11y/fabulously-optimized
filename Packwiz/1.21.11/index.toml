@@ -1,5 +1,8 @@
 hash-format = "sha256"
 
+[[files]]
+file = "config/cape-provider/config.json"
+hash = "39320478bc85b1ea42d8c8f7d2381ee7523042f7703f3009e3e252c5874ae26f"
 
 [[files]]
 file = "config/debugify.json"
@@ -33,6 +36,9 @@ hash = "3a1c71d2011cac176e00697237148ee882393b19394374862f8025f129d4c5a2"
 file = "config/modpack_defaults/config/bettergrass.json"
 hash = "8aaf74864043e08741cc3c60f3ffe0d9aaf1fe757f111bb41064fb580d25bdf1"
 
+[[files]]
+file = "config/modpack_defaults/config/cape-provider/config.json"
+hash = "39320478bc85b1ea42d8c8f7d2381ee7523042f7703f3009e3e252c5874ae26f"
 
 [[files]]
 file = "config/modpack_defaults/config/citresewn.json"
@@ -164,11 +170,11 @@ hash = "3630be880dc7f037238b7e6347201d4f716ffc7e16db0a1498ef2f775cf8f5be"
 
 [[files]]
 file = "config/modpack_defaults/config/sodium-extra-options.json"
-hash = "3460fa7e4fb4c92a18c06e4a1f9786568678b75d948383be759413a8eb4b3f73"
+hash = "96f90808c35c94b41ceaceb730e6eeb8544721eaa66277d403aaceab565e0f66"
 
 [[files]]
 file = "config/modpack_defaults/config/sodium-options.json"
-hash = "ec49efadad7ab8e28a149cd3cf7aea7db1d71348a6fd698ad30f032575ec4391"
+hash = "16e5e5b8e5ebabd79a615859a91700b4535cd9e8a80b561317b945d8a84d8c6a"
 
 [[files]]
 file = "config/modpack_defaults/config/sodium-shadowy-path-blocks-options.json"
@@ -180,7 +186,7 @@ hash = "902b29e5f2044fa0011ac76281c700b52d83f1b5db6b605b8f702c8a99a55a2b"
 
 [[files]]
 file = "config/modpack_defaults/options.txt"
-hash = "4e4fe57ca41dadeaa926d6981068a5f41fc362aa3ff6b6c6c928a2cf73360750"
+hash = "0d858e1d1c858feeff5810c7cfbdb373321839e7c0b4ee5d24f2c930d2ca765c"
 
 [[files]]
 file = "mods/animatica.pw.toml"
@@ -212,7 +218,6 @@ file = "mods/c2me-fabric.pw.toml"
 hash = "ff260b35492778bdce59ffa064a59c6a9953ffd409eb40782af14b78a29a2cb8"
 metafile = true
 
-
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "b4bba42a338f7d73be08bd82a31b7c22a74345fc26a13b797cfd3b7aea937566"
@@ -227,7 +232,6 @@ metafile = true
 file = "mods/continuity.pw.toml"
 hash = "3e08f5e14084922c7c54ac0a19403b3aefe1185bd3bd7ea6357914b5859acbf5"
 metafile = true
-
 
 [[files]]
 file = "mods/crash_assistant.pw.toml"
@@ -429,8 +433,20 @@ hash = "fb1ec447382d7962fc9e238c4e913ece3616696faa656aa7d274e1bae0e710f3"
 metafile = true
 
 [[files]]
+file = "resourcepacks/Faithful 64x - December 2025 Release.zip"
+hash = "a136d9101a4748558587980dace3cd7447b758fb72c4684d15fb805d0a812dac"
+
+[[files]]
 file = "resourcepacks/Fast Better Grass.zip"
 hash = "1811613f9eeadcfae674006480016da367c37469e04b9c8c74ce2f6520bb5ac9"
+
+[[files]]
+file = "resourcepacks/Low Shield.zip"
+hash = "0525e63c4809950ecf62999c5c93363078deccbc4c216ac7a4a0e44a9948d6ff"
+
+[[files]]
+file = "resourcepacks/LowOnFire v26.1§8.zip"
+hash = "25fc89fedc6d47fe2480a60910c65c8fd8b50121aaab919933e47cc6ba730a67"
 
 [[files]]
 file = "resourcepacks/Mod Menu Helper.zip"
