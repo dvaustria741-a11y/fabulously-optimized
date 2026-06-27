@@ -443,6 +443,10 @@ hash = "fb1ec447382d7962fc9e238c4e913ece3616696faa656aa7d274e1bae0e710f3"
 metafile = true
 
 [[files]]
+file = "resourcepacks/Fast Better Grass.zip"
+hash = "1811613f9eeadcfae674006480016da367c37469e04b9c8c74ce2f6520bb5ac9"
+
+[[files]]
 file = "resourcepacks/Mod Menu Helper.zip"
 hash = "158eac0e18d60d425fdc6acdb01857467fe7045f1d433aafcf837dead1416c37"
 
