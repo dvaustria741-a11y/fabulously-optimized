@@ -434,6 +434,10 @@ hash = "854dacb27acda6e35475b2818419038737de8e12c7de39de1676a641d6a9c487"
 metafile = true
 
 [[files]]
+file = "pack.png"
+hash = "1043b8607614d22fe9e45d13ddc5e1b41c7de1cc101b6fc11aea80e00707cafb"
+
+[[files]]
 file = "resourcepacks/Chat_Reporting_Helper.pw.toml"
 hash = "fb1ec447382d7962fc9e238c4e913ece3616696faa656aa7d274e1bae0e710f3"
 metafile = true
