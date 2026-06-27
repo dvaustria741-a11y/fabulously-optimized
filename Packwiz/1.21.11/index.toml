@@ -1,6 +1,5 @@
 hash-format = "sha256"
 
-
 [[files]]
 file = "config/debugify.json"
 hash = "0f225ab8423940db883938663ef73097674164e1f41aefc79b0179df0893d554"
@@ -32,7 +31,6 @@ hash = "3a1c71d2011cac176e00697237148ee882393b19394374862f8025f129d4c5a2"
 [[files]]
 file = "config/modpack_defaults/config/bettergrass.json"
 hash = "8aaf74864043e08741cc3c60f3ffe0d9aaf1fe757f111bb41064fb580d25bdf1"
-
 
 [[files]]
 file = "config/modpack_defaults/config/citresewn.json"
