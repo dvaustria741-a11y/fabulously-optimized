@@ -1,8 +1,5 @@
 hash-format = "sha256"
 
-[[files]]
-file = "config/cape-provider/config.json"
-hash = "39320478bc85b1ea42d8c8f7d2381ee7523042f7703f3009e3e252c5874ae26f"
 
 [[files]]
 file = "config/debugify.json"
@@ -36,9 +33,6 @@ hash = "3a1c71d2011cac176e00697237148ee882393b19394374862f8025f129d4c5a2"
 file = "config/modpack_defaults/config/bettergrass.json"
 hash = "8aaf74864043e08741cc3c60f3ffe0d9aaf1fe757f111bb41064fb580d25bdf1"
 
-[[files]]
-file = "config/modpack_defaults/config/cape-provider/config.json"
-hash = "39320478bc85b1ea42d8c8f7d2381ee7523042f7703f3009e3e252c5874ae26f"
 
 [[files]]
 file = "config/modpack_defaults/config/citresewn.json"
@@ -218,10 +212,6 @@ file = "mods/c2me-fabric.pw.toml"
 hash = "ff260b35492778bdce59ffa064a59c6a9953ffd409eb40782af14b78a29a2cb8"
 metafile = true
 
-[[files]]
-file = "mods/cape-provider.pw.toml"
-hash = "c34dd7b6f677fc4a31f4a740f9fc86372252cd1154cb58b2a783e54c7f0d6d57"
-metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
@@ -238,10 +228,6 @@ file = "mods/continuity.pw.toml"
 hash = "3e08f5e14084922c7c54ac0a19403b3aefe1185bd3bd7ea6357914b5859acbf5"
 metafile = true
 
-[[files]]
-file = "mods/controlify.pw.toml"
-hash = "a650b71f691a0742182fc69fb1eefbb6c657f49041dfd887a20bb25c84f6f257"
-metafile = true
 
 [[files]]
 file = "mods/crash_assistant.pw.toml"
