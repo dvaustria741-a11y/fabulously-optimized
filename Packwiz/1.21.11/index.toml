@@ -207,7 +207,12 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "ff260b35492778bdce59ffa064a59c6a9953ffd409eb40782af14b78a29a2cb8"
+hash = "244aa1a2053306dca4e0e8d81ee305ad722fc5656deca97f2d986b9f4626c981"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "3db19f3a107eb260b9223ab261318de59645d2d60ed61a751b00d0a7352866b8"
 metafile = true
 
 [[files]]
@@ -238,6 +243,11 @@ metafile = true
 [[files]]
 file = "mods/debugify.pw.toml"
 hash = "2f4334c909013c446b76c2de88ed149b890afc2daa8f9f32226a0579064bf790"
+metafile = true
+
+[[files]]
+file = "mods/distant-horizons.pw.toml"
+hash = "c50119d430b7ac676bdf3fc8002ab65053a4801843f42886476a2e62d7c7a9ac"
 metafile = true
 
 [[files]]
