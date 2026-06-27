@@ -27,7 +27,7 @@ mipmapLevels:0
 narrator:0
 particles:1
 reducedDebugInfo:false
-renderClouds:"fast"
+renderClouds:"false"
 cloudRange:128
 renderDistance:5
 simulationDistance:5
@@ -63,7 +63,7 @@ damageTiltStrength:0.5035211267605634
 highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
-resourcePacks:["vanilla","file/Faithful 64x - December 2025 Release.zip","file/Fast Better Grass.zip","file/Low Shield.zip","file/LowOnFire v26.1§8.zip"]
+resourcePacks:["vanilla","file/Faithful 64x - December 2025 Release.zip","file/Low Shield.zip","file/LowOnFire v26.1§8.zip","file/Fast Better Grass.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
