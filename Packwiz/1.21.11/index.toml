@@ -30,7 +30,7 @@ hash = "3a1c71d2011cac176e00697237148ee882393b19394374862f8025f129d4c5a2"
 
 [[files]]
 file = "config/modpack_defaults/config/bettergrass.json"
-hash = "8aaf74864043e08741cc3c60f3ffe0d9aaf1fe757f111bb41064fb580d25bdf1"
+hash = "d31f4687470a8f72af9c519a3f168e29f38e5b5450808ba2bb7f344dd53fede5"
 
 [[files]]
 file = "config/modpack_defaults/config/citresewn.json"
@@ -161,8 +161,24 @@ file = "config/modpack_defaults/config/rrls.toml"
 hash = "3630be880dc7f037238b7e6347201d4f716ffc7e16db0a1498ef2f775cf8f5be"
 
 [[files]]
+file = "config/modpack_defaults/config/smoothjoin.json"
+hash = "88c995ff16587443430dac75d6bd120c0552459587d0a3e7f21611efafe9f278"
+
+[[files]]
 file = "config/modpack_defaults/config/sodium-extra-options.json"
-hash = "96f90808c35c94b41ceaceb730e6eeb8544721eaa66277d403aaceab565e0f66"
+hash = "92c78ad5fd491f71c31ae2b870aa96c9f3b9785a59ac5437341e7be433fd5af4"
+
+[[files]]
+file = "config/modpack_defaults/config/sodium-extra.properties"
+hash = "a2f1b47c1eaa119ab34727f1d43c2506cb3d7f17ba8fb4efb49e20c8e0b58e70"
+
+[[files]]
+file = "config/modpack_defaults/config/sodium-fingerprint.json"
+hash = "95aafb31863748b2100c8008670e810742977dc41ed0cfd7b8b2b7bc09e35d6d"
+
+[[files]]
+file = "config/modpack_defaults/config/sodium-mixins.properties"
+hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 
 [[files]]
 file = "config/modpack_defaults/config/sodium-options.json"
@@ -170,7 +186,7 @@ hash = "16e5e5b8e5ebabd79a615859a91700b4535cd9e8a80b561317b945d8a84d8c6a"
 
 [[files]]
 file = "config/modpack_defaults/config/sodium-shadowy-path-blocks-options.json"
-hash = "4773ede8076bdbcfb6b8ea3de058a56120aa7438ee6b25de297c10aa8f5ce393"
+hash = "71c8d050837ca80f08b33231ffaf25907fe88536015fddcfac4099a0467fff63"
 
 [[files]]
 file = "config/modpack_defaults/debug-profile.json"
@@ -178,7 +194,7 @@ hash = "902b29e5f2044fa0011ac76281c700b52d83f1b5db6b605b8f702c8a99a55a2b"
 
 [[files]]
 file = "config/modpack_defaults/options.txt"
-hash = "0d858e1d1c858feeff5810c7cfbdb373321839e7c0b4ee5d24f2c930d2ca765c"
+hash = "533968c2f42f66af8588a5d6fbc5ff70af0f8b0c97b88b70d5075318411b34c9"
 
 [[files]]
 file = "mods/animatica.pw.toml"
@@ -399,6 +415,10 @@ metafile = true
 file = "mods/skyboxify.pw.toml"
 hash = "3f79a3e3a5628b61340a7b68aaee62f24c50ba2b25cb0e3f427153384d7e2cd5"
 metafile = true
+
+[[files]]
+file = "mods/smoothjoin-1_0_3.jar"
+hash = "c3cf59f921e2f931ecbe511cc5e5b5eac7d0e4daf9dc5de135cef735e18a8f4e"
 
 [[files]]
 file = "mods/sodium-extra.pw.toml"
