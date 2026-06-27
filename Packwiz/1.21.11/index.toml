@@ -116,9 +116,6 @@ hash = "e9aee9c3cd2090e6f810b045e22b4e1fa61b758829349ac2dd1dbab19f09281e"
 file = "config/modpack_defaults/config/debugify.json"
 hash = "0f225ab8423940db883938663ef73097674164e1f41aefc79b0179df0893d554"
 
-[[files]]
-file = "config/modpack_defaults/config/dynamic_fps.json"
-hash = "6f1284a14f1f0972f4dbdf42dd4892c44394af06113fccb1a0174c0dd97b418f"
 
 [[files]]
 file = "config/modpack_defaults/config/entity_texture_features.json"
