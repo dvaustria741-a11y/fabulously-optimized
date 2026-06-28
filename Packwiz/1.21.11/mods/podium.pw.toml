@@ -1,0 +1,13 @@
+name = "Podium"
+filename = "podium-fabric-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/fW8woQj4/versions/YjNyuxw0/podium-fabric-1.1.0.jar"
+hash-format = "sha512"
+hash = "607a4e283b255e693aeeaf42967c1765f141be0d8b496e88822cf981b5f61ea47976fa87ec4260b6733b2d258132cf6f62fe66e48141b60f8426d2415860449b"
+
+[update]
+[update.modrinth]
+mod-id = "fW8woQj4"
+version = "YjNyuxw0"
