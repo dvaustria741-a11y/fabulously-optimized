@@ -203,7 +203,6 @@ file = "mods/bettermounthud.pw.toml"
 hash = "b2c1e1ce7672eaa72551a6a98dc6f85b13201220a6c14b733dfa5c0584f0f19d"
 metafile = true
 
-
 [[files]]
 file = "mods/chunky.pw.toml"
 hash = "3db19f3a107eb260b9223ab261318de59645d2d60ed61a751b00d0a7352866b8"
@@ -398,6 +397,7 @@ metafile = true
 file = "mods/smoothjoin.pw.toml"
 hash = "bc5d5a2daa4cb1fe36d8cda111dc367d13a2aef39f7146409bfb045f44d3b669"
 metafile = true
+
 [[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "7c332150908820c5407bb0570ac3f655c43d7a57c0ddefbb5af7a2ca95f1f5e5"
