@@ -198,8 +198,6 @@ file = "mods/badoptimizations.pw.toml"
 hash = "36c3764fe3e56ccc311c6908aba540142f7e67af24755839a7b1ea7a91188799"
 metafile = true
 
-
-
 [[files]]
 file = "mods/bettermounthud.pw.toml"
 hash = "b2c1e1ce7672eaa72551a6a98dc6f85b13201220a6c14b733dfa5c0584f0f19d"
@@ -366,14 +364,14 @@ hash = "ccaaca24a788630e62da4b377928f3edc9f77894058c53c2188bc93322250c66"
 metafile = true
 
 [[files]]
-file = "mods/podium.pw.toml"
-hash = "1f619443bdb47c4f3d0f919c011c6512f7091454a0df6febc9f33b745d78faa3"
-metafile = true
-[[files]]
 file = "mods/optigui.pw.toml"
 hash = "e93a3f8be503fd2c8d72439b3ce6800d5c92f9678eb8791457bf9d6ec4bf038d"
 metafile = true
 
+[[files]]
+file = "mods/podium.pw.toml"
+hash = "1f619443bdb47c4f3d0f919c011c6512f7091454a0df6febc9f33b745d78faa3"
+metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
@@ -466,3 +464,31 @@ hash = "158eac0e18d60d425fdc6acdb01857467fe7045f1d433aafcf837dead1416c37"
 file = "resourcepacks/Translations_for_Sodium.pw.toml"
 hash = "859744144764c03a21f31fcbeebc9278eecbe3ecff09edeb5cec8a3ca0fd62b6"
 metafile = true
+
+[[files]]
+file = "shaderpacks/[BSL Shaders] BSL_v10.0.zip.txt"
+hash = "65fc964f795160626aec8024ed2c666df8ac24e62233e424a6bdf676b55c1b02"
+
+[[files]]
+file = "shaderpacks/[Bliss Shaders] Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip.txt"
+hash = "97a490b74d726aa60a73f6d7df6540a355048b36b8274cf883878c3f71defbb1"
+
+[[files]]
+file = "shaderpacks/[Complementary Shaders - Reimagined] ComplementaryReimagined_r5.6.zip.txt"
+hash = "47e1177df4e9a93efd3e25a7626f3ee6e86ba3c300f2b70c3f0df6aa52f9d169"
+
+[[files]]
+file = "shaderpacks/[Complementary Shaders - Unbound] ComplementaryUnbound_r5.6.zip.txt"
+hash = "d324bc196473edd4a193da97ad296b66e3f27e910298a7b081a6e89f540e0a82"
+
+[[files]]
+file = "shaderpacks/[LITE shaders (MakeUp edit)] #U00a7lLITE shaders 4.9.zip.txt"
+hash = "2825cad0aa5b5a4a126e3503b3a189f7ea05711fdeffa0857d0ec33912162052"
+
+[[files]]
+file = "shaderpacks/[MakeUp - Ultra Fast] MakeUp-UltraFast-9.4b.zip.txt"
+hash = "f86f86d73134943e26447ef04209eb6c9163352576c247a20852d090ec04c343"
+
+[[files]]
+file = "shaderpacks/[Photon Shaders] photon_v1.2a.zip.txt"
+hash = "ff98879c2b268a096dccd987ed1ae4162d51bdec143ea7924f674471181303da"
