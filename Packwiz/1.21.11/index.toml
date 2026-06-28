@@ -177,6 +177,10 @@ file = "config/modpack_defaults/debug-profile.json"
 hash = "902b29e5f2044fa0011ac76281c700b52d83f1b5db6b605b8f702c8a99a55a2b"
 
 [[files]]
+file = "config/modpack_defaults/options.txt"
+hash = "662d3d4b20f944cf26682e93008535e8c5824e62976fe790c0657d9f00c4194a"
+
+[[files]]
 file = "config/smoothjoin.json"
 hash = "88c995ff16587443430dac75d6bd120c0552459587d0a3e7f21611efafe9f278"
 
