@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/bettergrass.json"
-hash = "d31f4687470a8f72af9c519a3f168e29f38e5b5450808ba2bb7f344dd53fede5"
-
-[[files]]
 file = "config/debugify.json"
 hash = "0f225ab8423940db883938663ef73097674164e1f41aefc79b0179df0893d554"
 
