@@ -202,15 +202,7 @@ file = "mods/badoptimizations.pw.toml"
 hash = "36c3764fe3e56ccc311c6908aba540142f7e67af24755839a7b1ea7a91188799"
 metafile = true
 
-[[files]]
-file = "mods/betterblockentities.pw.toml"
-hash = "a300a2c5071703f83740905a008833d32383f3d9b72e875ed6aff1a96b5f309e"
-metafile = true
 
-[[files]]
-file = "mods/bettergrass.pw.toml"
-hash = "71a7d65e5755f03d36faa60bf639a263dbd63eef6066c7af10201ad35cd30afc"
-metafile = true
 
 [[files]]
 file = "mods/bettermounthud.pw.toml"
@@ -378,14 +370,14 @@ hash = "ccaaca24a788630e62da4b377928f3edc9f77894058c53c2188bc93322250c66"
 metafile = true
 
 [[files]]
+file = "mods/podium.pw.toml"
+hash = "1f619443bdb47c4f3d0f919c011c6512f7091454a0df6febc9f33b745d78faa3"
+metafile = true
+[[files]]
 file = "mods/optigui.pw.toml"
 hash = "e93a3f8be503fd2c8d72439b3ce6800d5c92f9678eb8791457bf9d6ec4bf038d"
 metafile = true
 
-[[files]]
-file = "mods/paginatedadvancements.pw.toml"
-hash = "b991c6117c7f7ce3cf2d3ab59ef0868be0a23736e7e0386d664614e1f805d320"
-metafile = true
 
 [[files]]
 file = "mods/polytone.pw.toml"
