@@ -29,6 +29,10 @@ file = "config/modpack_defaults/config/PaginatedAdvancements.json5"
 hash = "3a1c71d2011cac176e00697237148ee882393b19394374862f8025f129d4c5a2"
 
 [[files]]
+file = "config/modpack_defaults/config/badoptimizations.properties"
+hash = "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9"
+
+[[files]]
 file = "config/modpack_defaults/config/citresewn.json"
 hash = "057e9e53790394db8b700616de3c235b0af3dc12fe7731a66ad20026acb9d991"
 
@@ -109,8 +113,16 @@ file = "config/modpack_defaults/config/dynamic_fps.json"
 hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
 
 [[files]]
+file = "config/modpack_defaults/config/dynamic_fps.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
 file = "config/modpack_defaults/config/entity_texture_features.json"
 hash = "6a3760d2b7828efc524976294cc6fd17f16bdda9d9827bd55f8fcd58ce724355"
+
+[[files]]
+file = "config/modpack_defaults/config/entityculling.json"
+hash = "ceb5b3624c3269bef037b2914da8ab0d1c368abdd466156292a5d82db8803b0e"
 
 [[files]]
 file = "config/modpack_defaults/config/fabric_loader_dependencies.json"
@@ -146,7 +158,7 @@ hash = "b7b9cdc1e99bdfd86052e373dc3e0ae87c73760816454b801b09d0cfd7b79604"
 
 [[files]]
 file = "config/modpack_defaults/config/moreculling.toml"
-hash = "ee7d40bb334a12e40ac32bb2c5b36919e4a7486a0ef22b5720d4ef7a1509a288"
+hash = "9c0ba1e50a29423a2d4168eecb900672b59b03df980b332598ae618f2383bb82"
 
 [[files]]
 file = "config/modpack_defaults/config/puzzle.json"
@@ -155,6 +167,10 @@ hash = "4449fb9b3440c4367f861d0f8e75b879caf6c897cb47569f13929ca37d6c864d"
 [[files]]
 file = "config/modpack_defaults/config/rrls.toml"
 hash = "3630be880dc7f037238b7e6347201d4f716ffc7e16db0a1498ef2f775cf8f5be"
+
+[[files]]
+file = "config/modpack_defaults/config/sodium-extra-options.json"
+hash = "d66f5e7134ed7cd0c55683a3b530705c63688cd35695d0b2f2ae328c3503b4cc"
 
 [[files]]
 file = "config/modpack_defaults/debug-profile.json"
@@ -240,7 +256,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic_fps.pw.toml"
-hash = "f8148385a0021a9dfad9f195a8e65441fa1603fe55a3178328a648639dfb7b03"
+hash = "e10d7d402f2fbdab53c6601053f4b0d1de3bfea4659c486e4e8c1b9f2cc87f0d"
 metafile = true
 
 [[files]]
@@ -306,6 +322,11 @@ metafile = true
 [[files]]
 file = "mods/isxander-main-menu-credits.pw.toml"
 hash = "e379dcd9dfc17994be22c8ebd94ddb3e61c5e8498ba9a4f3e79b4e07ae253b43"
+metafile = true
+
+[[files]]
+file = "mods/krypton.pw.toml"
+hash = "8f6e0157b42ba668c0ba9aa7eff94b3b91a8f58bcd357e574d70a7b160d4337c"
 metafile = true
 
 [[files]]
@@ -415,7 +436,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "533968c2f42f66af8588a5d6fbc5ff70af0f8b0c97b88b70d5075318411b34c9"
+hash = "662d3d4b20f944cf26682e93008535e8c5824e62976fe790c0657d9f00c4194a"
 
 [[files]]
 file = "pack.png"
