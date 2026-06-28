@@ -1,12 +1,12 @@
 {
   "animation_settings": {
-    "animation": true,
-    "water": true,
-    "lava": true,
-    "fire": true,
-    "portal": true,
-    "block_animations": true,
-    "sculk_sensor": true
+    "animation": false,
+    "water": false,
+    "lava": false,
+    "fire": false,
+    "portal": false,
+    "block_animations": false,
+    "sculk_sensor": false
   },
   "particle_settings": {
     "particles": true,
@@ -52,7 +52,7 @@
       "minecraft:enchanted_hit": true,
       "minecraft:end_rod": true,
       "minecraft:entity_effect": true,
-      "minecraft:explosion": true,
+      "minecraft:explosion": false,
       "minecraft:explosion_emitter": true,
       "minecraft:falling_dripstone_lava": true,
       "minecraft:falling_dripstone_water": true,
@@ -132,13 +132,13 @@
     }
   },
   "detail_settings": {
-    "sky": true,
-    "sun": true,
-    "moon": true,
-    "stars": true,
-    "rain_snow": true,
-    "biome_colors": true,
-    "sky_colors": true
+    "sky": false,
+    "sun": false,
+    "moon": false,
+    "stars": false,
+    "rain_snow": false,
+    "biome_colors": false,
+    "sky_colors": false
   },
   "render_settings": {
     "global_fog": true,
@@ -192,7 +192,7 @@
     "player_name_tag": true
   },
   "extra_settings": {
-    "overlay_corner": "TOP_LEFT",
+    "overlay_corner": "BOTTOM_RIGHT",
     "text_contrast": "NONE",
     "show_fps": true,
     "show_f_p_s_extended": true,
