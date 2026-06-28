@@ -300,11 +300,6 @@ hash = "aa4cebc84ddf4d1c82c9c15f2aefbe1821ce4c22dd4f40b8f7e89ce8951b1eb6"
 metafile = true
 
 [[files]]
-file = "mods/cubes-without-borders.pw.toml"
-hash = "9c0c18b9cb4e9edfeba2a61e9511d7773ed699dce610c3619c77e56b09577c81"
-metafile = true
-
-[[files]]
 file = "mods/debugify.pw.toml"
 hash = "f605331d864b266407b9d4486a4355febbc80b5e2e6ef75e4d92d45d2b29bc8f"
 metafile = true
