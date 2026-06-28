@@ -1,0 +1,13 @@
+name = "Smooth Join"
+filename = "smoothjoin-1.0.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6WfBr7D8/versions/cz33kCJ8/smoothjoin-1.0.3.jar"
+hash-format = "sha512"
+hash = "c8394e641301f6550f33a9f985ef2528df58dff9f5b50d6ffe7fa29fd55ca81790f855ac5f9581db3ee672e988357b186eb41e5242333b68973dc839dbfb60c7"
+
+[update]
+[update.modrinth]
+mod-id = "6WfBr7D8"
+version = "cz33kCJ8"
