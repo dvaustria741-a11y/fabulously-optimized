@@ -248,10 +248,6 @@ file = "mods/dynamic_fps.pw.toml"
 hash = "f8148385a0021a9dfad9f195a8e65441fa1603fe55a3178328a648639dfb7b03"
 metafile = true
 
-[[files]]
-file = "mods/e4mc.pw.toml"
-hash = "c813b1d59264a2e248547f28775925ffd1c4484e16093069c486455e74a2b7d9"
-metafile = true
 
 [[files]]
 file = "mods/entity_model_features.pw.toml"
@@ -393,10 +389,6 @@ file = "mods/rrls.pw.toml"
 hash = "69a9d6b97f3c640ca5363d701deadf14781231e71dde3d62acbeee6245201f48"
 metafile = true
 
-[[files]]
-file = "mods/skyboxify.pw.toml"
-hash = "3f79a3e3a5628b61340a7b68aaee62f24c50ba2b25cb0e3f427153384d7e2cd5"
-metafile = true
 
 [[files]]
 file = "mods/smoothjoin.pw.toml"
@@ -418,6 +410,10 @@ file = "mods/sspb.pw.toml"
 hash = "7877919cb895985be9f85aa6f1e7bf1ff24279e3888ccc62f79fbf8eabc6023a"
 metafile = true
 
+[[files]]
+file = "mods/threadtweak.pw.toml"
+hash = "7c3e4630b35b3525d740be5b81b69af1462c8431a617233f9b0dadebb28a4f54"
+metafile = true
 [[files]]
 file = "mods/yet_another_config_lib_v3.pw.toml"
 hash = "941777ea339a9e6c10af302decfff1e5c590fa4c2f06ffb813fbaa22c674d970"
