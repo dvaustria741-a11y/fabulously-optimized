@@ -106,7 +106,7 @@ hash = "0f225ab8423940db883938663ef73097674164e1f41aefc79b0179df0893d554"
 
 [[files]]
 file = "config/modpack_defaults/config/dynamic_fps.json"
-hash = "6f1284a14f1f0972f4dbdf42dd4892c44394af06113fccb1a0174c0dd97b418f"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
 
 [[files]]
 file = "config/modpack_defaults/config/entity_texture_features.json"
@@ -243,6 +243,10 @@ file = "mods/distant-horizons.pw.toml"
 hash = "c50119d430b7ac676bdf3fc8002ab65053a4801843f42886476a2e62d7c7a9ac"
 metafile = true
 
+[[files]]
+file = "mods/dynamic_fps.pw.toml"
+hash = "f8148385a0021a9dfad9f195a8e65441fa1603fe55a3178328a648639dfb7b03"
+metafile = true
 [[files]]
 file = "mods/e4mc.pw.toml"
 hash = "c813b1d59264a2e248547f28775925ffd1c4484e16093069c486455e74a2b7d9"
