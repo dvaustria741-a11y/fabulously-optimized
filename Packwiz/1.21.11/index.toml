@@ -238,10 +238,6 @@ file = "mods/debugify.pw.toml"
 hash = "2f4334c909013c446b76c2de88ed149b890afc2daa8f9f32226a0579064bf790"
 metafile = true
 
-[[files]]
-file = "mods/distant-horizons.pw.toml"
-hash = "c50119d430b7ac676bdf3fc8002ab65053a4801843f42886476a2e62d7c7a9ac"
-metafile = true
 
 [[files]]
 file = "mods/dynamic_fps.pw.toml"
